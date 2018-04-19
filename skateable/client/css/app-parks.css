@@ -136,6 +136,7 @@ a {
 }
 
 #parkList {
+    text-align: center;
     max-height: 80%;
     max-width: 100%;
     width: 400px;
@@ -144,6 +145,7 @@ a {
 }
 
 #parkList ul {
+    text-align: left;
     overflow-y: scroll;
     list-style-type: none;
     padding: 0;

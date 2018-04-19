@@ -1,3 +1,5 @@
+/*global $, document, google, ko, theaters, ajax, setTimeout, console, alert, window*/
+/*jshint esversion: 6 */
 
 //class to store the user
 let User = function(user){
@@ -42,11 +44,6 @@ function AjaxGet(url, method, datatype, callback)
 			}
 	});
 }
-
-
-   
-/*global $, document, google, ko, theaters, ajax, setTimeout, console, alert, window*/
-/*jshint esversion: 6 */
 let map;
 
 

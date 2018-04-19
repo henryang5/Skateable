@@ -1,4 +1,4 @@
-/*global $, document, google, ko, theaters, ajax, setTimeout, console, alert, window, self*/
+/*global $, document, google, ko, theaters, ajax, setTimeout, console, alert, window, location*/
 /*jshint esversion: 6 */
 //Jquery Login to loopback
 
@@ -34,7 +34,7 @@ function AjaxGet(url, method, datatype, callback)
 	});
 }
 
-function Login(){
+function Login() {
 	
 //example
 	var login = {"email": document.all[12].value,"password": document.all[15].value};
